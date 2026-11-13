@@ -1,29 +1,31 @@
 # WOOO!! 🎉
 
-Thought I would discipline myself while working through the [USACO Guide](https://usaco.guide).
+Thought I would discipline myself while working through the [USACO Guide](https://usaco.guide). Now also home to USACO contests and LeetCode.
 
 This repo is really just for personal growth, but feel free to judge me for premature optimization, naming conventions, commit messages—no really, open an issue or PR and I'll try to better myself; standards/requirements are basically just maintaining the repo structure and commit style (following sections).
 
-> 🔎 *Please note: I’d only like feedback on problems I’ve already solved or on `playground` implementations. Those are the parts meant for collaboration.*
+> 🔎 *Please note: I’d only like feedback on problems I’ve already solved. That's the part meant for collaboration.*
 
 ## Repo Structure
 
 ### Overview
 ```
 .
-├── .playground
-│   └── ...
-├── [level]
-│   └── ...
+├── usaco-guide
+│   └── [level]
+├── usaco-contests
+│   └── [year]/[month]
+├── leetcode
+│   └── [number]-[name]
 ├── .clang-format
 ├── .gitignore
 ├── README.md
 └── compile_flags.txt
 ```
 
-### Levels
+### USACO Guide
 ```
-[level]
+usaco-guide/[level]
 ├── [category]
 │   ├── README.md
 │   ├── [problem]
@@ -41,16 +43,8 @@ This repo is really just for personal growth, but feel free to judge me for prem
 For every category, there is a `README.md` listing all the problems in the category I've attempted and wish to attempt soon. It's named that so that GitHub opens it automatically when you select a category folder.
 
 ### Playground
-```
-.playground
-├── [topic]
-│   ├── comp.cpp
-│   ├── idiomatic.cpp
-│   └── [other].cpp
-└── x
-```
 
-The playground is broken down into topics (e.g. `trees`, `graphs`), each of which has a `comp.cpp` (without best practices; to get used to writing contest-type solutions), sometimes an `idiomatic.cpp` (best practices, smart pointers, RAII, etc), and even sometimes another file with interesting deviations or implementations with a design pattern.
+Moved to its own repo: [playground](https://github.com/sreyassabbani/playground).
 
 ## Version Tracking
 
@@ -64,6 +58,7 @@ level(year contest, category, P#): name
 So for example:
 ```
 bronze(2016 open, complete search, P1): diamond collector
+leetcode(1722): minimize hamming distance after swap operations
 ```
 
 Run `git config --local commit.template commit-template.txt`

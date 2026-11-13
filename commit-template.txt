@@ -1,4 +1,6 @@
 level(year contest, category, P#): name
+leetcode(#): name
 
 e.g.
 > bronze(2017 jan, greedy intro, P3): cow tipping
+> leetcode(1722): minimize hamming distance after swap operations
