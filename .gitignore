@@ -16,3 +16,7 @@
 
 # Dir env
 .direnv
+
+# Python
+.venv
+__pycache__/
