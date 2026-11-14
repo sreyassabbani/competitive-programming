@@ -1,2 +1,5 @@
 .direnv/
 target/
+
+# AoC asks not to share puzzle inputs
+inputs/
