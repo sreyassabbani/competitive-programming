@@ -1,6 +1,6 @@
 # WOOO!! 🎉
 
-Thought I would discipline myself while working through the [USACO Guide](https://usaco.guide). Now also home to USACO contests and LeetCode.
+Thought I would discipline myself while working through the [USACO Guide](https://usaco.guide). Now also home to USACO contests, LeetCode, and Advent of Code.
 
 This repo is really just for personal growth, but feel free to judge me for premature optimization, naming conventions, commit messages—no really, open an issue or PR and I'll try to better myself; standards/requirements are basically just maintaining the repo structure and commit style (following sections).
 
@@ -17,6 +17,8 @@ This repo is really just for personal growth, but feel free to judge me for prem
 │   └── [year]/[month]
 ├── leetcode
 │   └── [number]-[name]
+├── advent-of-code
+│   └── [year]  # rust
 ├── .clang-format
 ├── .gitignore
 ├── README.md
